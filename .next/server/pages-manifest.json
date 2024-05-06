@@ -1,0 +1,15 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/api/getProductList": "pages/api/getProductList.js",
+  "/api/getFrontProductsList": "pages/api/getFrontProductsList.js",
+  "/api/getCategoryList": "pages/api/getCategoryList.js",
+  "/404": "pages/404.js",
+  "/api/getSubCategoryList": "pages/api/getSubCategoryList.js",
+  "/page/account/login": "pages/page/account/login.js",
+  "/": "pages/index.js",
+  "/api/user/logout": "pages/api/user/logout.js",
+  "/api/user/login": "pages/api/user/login.js",
+  "/blogs/blog_right_sidebar": "pages/blogs/blog_right_sidebar.js"
+}
