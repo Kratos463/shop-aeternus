@@ -1,0 +1,104 @@
+{
+  "pages": {
+    "/auth/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/auth/login/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_next_font_google_target_css.css",
+      "static/css/css-node_modules_bootstrap_dist_css_bootstrap_min_css.css",
+      "static/css/css-node_modules_react-toastify_dist_ReactToastify_css-_6ec0.css",
+      "static/css/css-src_index_scss.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/[lng]/(MainBody)/dashboard/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[lng]/(MainBody)/dashboard/page.js"
+    ],
+    "/[lng]/(MainBody)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[lng]/(MainBody)/layout.js"
+    ],
+    "/[lng]/(MainBody)/coupons/list-coupons/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_react-toastify_dist_ReactToastify_css-_45f4.css",
+      "static/chunks/app/[lng]/(MainBody)/coupons/list-coupons/page.js"
+    ],
+    "/[lng]/(MainBody)/coupons/create-coupons/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_react-datepicker_dist_react-datepicker_css.css",
+      "static/chunks/app/[lng]/(MainBody)/coupons/create-coupons/page.js"
+    ],
+    "/[lng]/(MainBody)/pages/list-page/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_react-toastify_dist_ReactToastify_css-_45f4.css",
+      "static/chunks/app/[lng]/(MainBody)/pages/list-page/page.js"
+    ],
+    "/[lng]/(MainBody)/menus/list-menu/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_react-toastify_dist_ReactToastify_css-_45f4.css",
+      "static/chunks/app/[lng]/(MainBody)/menus/list-menu/page.js"
+    ],
+    "/[lng]/(MainBody)/users/list-user/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_react-toastify_dist_ReactToastify_css-_45f4.css",
+      "static/chunks/app/[lng]/(MainBody)/users/list-user/page.js"
+    ],
+    "/[lng]/(MainBody)/sales/orders/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_react-toastify_dist_ReactToastify_css-_45f4.css",
+      "static/chunks/app/[lng]/(MainBody)/sales/orders/page.js"
+    ],
+    "/[lng]/(MainBody)/products/physical/category/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_react-toastify_dist_ReactToastify_css-_45f4.css",
+      "static/chunks/app/[lng]/(MainBody)/products/physical/category/page.js"
+    ],
+    "/[lng]/(MainBody)/products/physical/sub-category/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_react-toastify_dist_ReactToastify_css-_45f4.css",
+      "static/chunks/app/[lng]/(MainBody)/products/physical/sub-category/page.js"
+    ],
+    "/[lng]/(MainBody)/products/physical/product-list/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[lng]/(MainBody)/products/physical/product-list/page.js"
+    ],
+    "/[lng]/(MainBody)/products/physical/product-detail/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[lng]/(MainBody)/products/physical/product-detail/page.js"
+    ],
+    "/[lng]/(MainBody)/products/physical/add-product/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_uiw_react-markdown-preview_esm_styles_markdown_css-node_modules_uiw_react-md-f556d9.css",
+      "static/chunks/app/[lng]/(MainBody)/products/physical/add-product/page.js"
+    ],
+    "/[lng]/(MainBody)/products/digital/digital-category/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_react-toastify_dist_ReactToastify_css-_45f4.css",
+      "static/chunks/app/[lng]/(MainBody)/products/digital/digital-category/page.js"
+    ],
+    "/[lng]/(MainBody)/sales/transactions/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_react-toastify_dist_ReactToastify_css-_45f4.css",
+      "static/chunks/app/[lng]/(MainBody)/sales/transactions/page.js"
+    ]
+  }
+}

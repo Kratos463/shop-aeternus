@@ -1,0 +1,10 @@
+{
+  "/[lng]/(MainBody)/sales/orders/page": "app/[lng]/(MainBody)/sales/orders/page.js",
+  "/[lng]/(MainBody)/products/physical/sub-category/page": "app/[lng]/(MainBody)/products/physical/sub-category/page.js",
+  "/[lng]/(MainBody)/products/physical/product-list/page": "app/[lng]/(MainBody)/products/physical/product-list/page.js",
+  "/[lng]/(MainBody)/products/physical/product-detail/page": "app/[lng]/(MainBody)/products/physical/product-detail/page.js",
+  "/[lng]/(MainBody)/products/physical/add-product/page": "app/[lng]/(MainBody)/products/physical/add-product/page.js",
+  "/[lng]/(MainBody)/sales/transactions/page": "app/[lng]/(MainBody)/sales/transactions/page.js",
+  "/[lng]/(MainBody)/coupons/list-coupons/page": "app/[lng]/(MainBody)/coupons/list-coupons/page.js",
+  "/[lng]/(MainBody)/coupons/create-coupons/page": "app/[lng]/(MainBody)/coupons/create-coupons/page.js"
+}
