@@ -8,8 +8,6 @@ const Checkout = () => {
     
     const {user} = useAuth()
 
-    console.log("User from checkout page", user)
-
     return (
         <>
             {user !== null ?

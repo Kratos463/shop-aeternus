@@ -44,7 +44,7 @@ export default function MyApp({ Component, pageProps }) {
               {/* <Head>
               <link rel="icon" type="image/x-icon" href={favicon} />
             </Head> */}
-              <title>Shop Aterno - Multi-purpopse E-commerce Website</title>
+              <title>Shop Atrno - Multi-purpopse E-commerce Website</title>
             </Helmet>
             <div>
               <AuthProvider>

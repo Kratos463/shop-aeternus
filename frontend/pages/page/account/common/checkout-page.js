@@ -7,12 +7,12 @@ import { useForm } from "react-hook-form";
 import { useRouter } from "next/router";
 import { CurrencyContext } from "../../../../helpers/Currency/CurrencyContext";
 import { convertPrice } from "../../../../helpers/utils";
-import { useUser } from "../../../../helpers/user/USerContext";
 import { toast } from "react-toastify";
+import { useAuth } from "../../../../helpers/auth/AuthContext";
 
 const CheckoutPage = () => {
   const cartContext = useContext(CartContext);
-  const { addAddress, userProfile } = useUser();
+  const { addAddress, userAddress } = useAuth();
   const cartItems = cartContext.state;
   const cart = cartContext.cart;
   const { state: selectedCurr } = useContext(CurrencyContext);
@@ -89,10 +89,10 @@ const CheckoutPage = () => {
                   <div className="checkout-title" >
                     <h3>Billing & Shipping Details</h3>
                   </div>
-                  {userProfile && userProfile.address && userProfile.address.length > 0 ? (
+                  {userAddress.length > 0 ? (
                     <div>
                       <h4>Select Address:</h4>
-                      {userProfile.address.map((address, index) => (
+                      {userAddress.map((address, index) => (
                         <div key={index} style={{paddingTop:'20px'}}>
                           <input
                             type="radio"

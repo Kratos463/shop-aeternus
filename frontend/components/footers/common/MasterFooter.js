@@ -30,8 +30,8 @@ const MasterFooter = ({
 }) => {
 
   const router = useRouter()
-  const {setSelectedCategory, setSelectedCategoryId, selectedFilteredProducts } = useContext(FilterContext)
-  const {categoryProduct} = useContext(ProductsContext)
+  const { setSelectedCategory, setSelectedCategoryId, selectedFilteredProducts } = useContext(FilterContext)
+  const { categoryProduct } = useContext(ProductsContext)
   const { categories } = useContext(CategoryContext)
   const [isOpen, setIsOpen] = useState();
   const [collapse, setCollapse] = useState(0);
@@ -122,9 +122,11 @@ const MasterFooter = ({
                       <LogoImage logo={logoName} />
                     </div>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam,
+                      Elevate your shopping experience with our carefully
+                      curated selection of premium products, designed to
+                      enhance every aspect of your life. From fashion to home
+                      essentials, find everything you need to indulge in luxury
+                      and style. Explore now and redefine your shopping journey with us!
                     </p>
                     <div className="footer-social">
                       <ul>

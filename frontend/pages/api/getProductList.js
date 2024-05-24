@@ -3,7 +3,6 @@ import axios from 'axios';
 export default async function handler(req, res) {
     try {
         const { keyword } = req.query;
-        console.log("Query parameters:", req.query);
 
         // Get all products from the API
         const apiResponse = await axios.get('https://thebrandtadka.com/api/index.php?mod=ApiMobile&api_key=VarifyTADKA7563&company_id=400&action=getProductList&token=8cc6be81ea4f574acf24aa1aaae2252d');
@@ -16,7 +15,7 @@ export default async function handler(req, res) {
             const filteredResults = products.filter((product) =>
                 product.Title.toLowerCase().includes(keyword.toLowerCase())
             );
-            console.log("filtered resutls is ",filteredResults)
+
             res.status(200).json({ Records: filteredResults });
         } else {
             res.status(200).json({ Records: products });

@@ -47,7 +47,6 @@ const ProductList = ({ colClass, layoutList, openSidebar, noSidebar }) => {
     }
   }, [selectedCategoryId]);
 
-
   const handlePagination = () => {
     setIsLoading(true);
     setTimeout(() => {

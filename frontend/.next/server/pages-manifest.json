@@ -2,5 +2,15 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/shop/left_sidebar": "pages/shop/left_sidebar.js",
+  "/": "pages/index.js",
+  "/page/account/contact": "pages/page/account/contact.js",
+  "/api/getHomeBanners": "pages/api/getHomeBanners.js",
+  "/api/getFrontCategoryProductsList": "pages/api/getFrontCategoryProductsList.js",
+  "/api/getCategoryList": "pages/api/getCategoryList.js",
+  "/api/getFrontProductsList": "pages/api/getFrontProductsList.js",
+  "/api/getFrontCategoryList": "pages/api/getFrontCategoryList.js",
+  "/404": "pages/404.js",
+  "/api/getProductList": "pages/api/getProductList.js",
+  "/api/getSubCategoryList": "pages/api/getSubCategoryList.js"
 }

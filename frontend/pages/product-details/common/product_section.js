@@ -44,7 +44,7 @@ const ProductSection = ({ pathId }) => {
     };
     fetchProductDetails();
     
-  }, [id]);
+  }, [id]);        
 
 
   useEffect(() => {

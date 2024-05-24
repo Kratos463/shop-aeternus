@@ -4,7 +4,6 @@ import ProductItems from "../product-box/ProductBox1";
 import { Row, Col, Container } from "reactstrap";
 import CartContext from "../../../helpers/cart";
 import PostLoader from "../PostLoader";
-import search from "../../../public/assets/images/empty-search.jpg";
 import axios from "axios";
 import WishlistContext from "../../../helpers/wishlist";
 

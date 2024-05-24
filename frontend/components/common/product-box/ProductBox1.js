@@ -1,13 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
-import Link from "next/link";
 import { useRouter } from "next/router";
-import { Row, Col, Media, Modal, ModalBody, ModalHeader } from "reactstrap";
-import CartContext from "../../../helpers/cart";
+import { Media} from "reactstrap";
 import { CurrencyContext } from "../../../helpers/Currency/CurrencyContext";
 import MasterProductDetail from "./MasterProductDetail";
-import axios from "axios";
-import { convertPrice } from "../../../helpers/utils";
-import { useAuth } from "../../../helpers/auth/AuthContext";
 
 const ProductItem = ({ product, addCart, des, addWishlist, cartClass, productDetail, title }) => {
   // eslint-disable-next-line
@@ -16,12 +11,9 @@ const ProductItem = ({ product, addCart, des, addWishlist, cartClass, productDet
   const currency = curContext.state;
 
   const [image, setImage] = useState("");
-  const [modal, setModal] = useState(false);
   const [frontImage, setFrontImage] = useState("")
   const [loading, setLoading] = useState(false)
-  const toggle = () => setModal(!modal);
   const uniqueTags = [];
-  const { state: selectedCurr } = useContext(CurrencyContext);
 
 
   useEffect(() => {
